@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,100;1,800&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    background-color: lightblue;
+    align-items: baseline;
+    z-index: 99;
+    position: fixed;
+    width: 100vh;
+
+
+}
+
+/* Toggle menu (Edit) */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Move menu button right */
+.right {
+    margin-left: 60px;
+}
+
+/* style menu button */
+label i {
+    font-size: 2rem;
+    color: ;
+}
+
+
+
+
+main {
+    background-color: lightyellow;
+    flex: 1 0 auto;
+    align-items: right;
+    margin-top: 40px;
+}
+
+fieldset {
+    margin: 20px 10px;
+}
+
+
+
+fieldset li {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: lightblue;
+
+}
