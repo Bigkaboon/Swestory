@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .center {
@@ -20,19 +21,27 @@ body {
 
 header {
     display: flex;
-    background-color: lightblue;
+    background-color: #feff51;
     align-items: baseline;
     z-index: 99;
     position: fixed;
-    width: 100vh;
+    width: 100%;
+    color: #0490d1;
+    justify-content: space-between;
 
+
+}
+
+header a {
+    color: #0490d1;
+    text-decoration: none;
 
 }
 
 /* Toggle menu (Edit) */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #feff51;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -56,27 +65,31 @@ nav {
 
 /* Move menu button right */
 .right {
-    margin-left: 60px;
+    left: 0;
+    padding: 0 1rem;
 }
 
 /* style menu button */
 label i {
     font-size: 2rem;
-    color: ;
+
 }
+
 
 
 
 
 main {
-    background-color: lightyellow;
+    background-color: #0490d1;
     flex: 1 0 auto;
     align-items: right;
     margin-top: 40px;
+    color: beige;
 }
 
 fieldset {
     margin: 20px 10px;
+    border: #feff51 3px solid;
 }
 
 
@@ -85,21 +98,123 @@ fieldset li {
     text-align: center;
 }
 
+.fa-lightbulb {
+    color: #feff51;
+}
+
 li {
     list-style-type: none;
 
 }
 
-a {
+fieldset a {
     text-decoration: none;
+    color: beige;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+#logo {
+    margin-left: 1rem;
+}
+
+
+
+
 
 footer {
-    background-color: lightblue;
+    background-color: #feff51;
 
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .right {
+        margin-left: 0 1rem;
+        left: 0;
+    }
+
+    label i {
+        font-size: 3rem;
+
+    }
+
+    #logo {
+
+        font-size: 2.5rem;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        border: none;
+        padding-bottom: 1rem;
+    }
+
+
+
+    fieldset {
+        margin: 4rem 6rem;
+        padding: 2rem;
+    }
+
+    fieldset li {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        padding-top: 1rem;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 0.5rem;
+        padding-bottom: 1rem;
+        margin-right: 5vw;
+        font-weight: 600;
+    }
+
+    #logo {
+        margin-left: 5vw;
+    }
+
+    fieldset {
+        margin: 8rem 22rem;
+        padding: 4rem;
+    }
+
+    fieldset li {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .active {
+        border-bottom: 2px solid #0490d1;
+    }
 }
