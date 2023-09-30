@@ -75,6 +75,29 @@ label i {
 
 }
 
+/* history navigation (Phone size) */
+#hist-nav {
+    margin-top: 1rem;
+    position: absolute;
+
+}
+
+#hist-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0rem;
+
+}
+
+#hist-nav a {
+    padding-left: 0.5rem;
+    color: #feff51;
+
+    font-size: 0.75rem;
+
+
+}
 
 
 
@@ -123,10 +146,9 @@ a:hover {
 
 
 
-
 footer {
     background-color: #feff51;
-
+    min-height: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -155,6 +177,28 @@ footer {
         padding-bottom: 1rem;
     }
 
+    #hist-nav {
+        margin-top: 1rem;
+        position: absolute;
+        padding-left: 10rem;
+
+    }
+
+    #hist-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #hist-nav a {
+        padding-left: 2rem;
+        color: #feff51;
+
+        font-size: 1rem;
+
+
+    }
 
 
     fieldset {
@@ -175,6 +219,10 @@ footer {
 @media screen and (min-width: 992px) {
     header {
         padding-top: 1rem;
+    }
+
+    main {
+        margin-top: 5.5rem;
     }
 
     nav {
@@ -214,7 +262,35 @@ footer {
         font-size: 2rem;
     }
 
+    /* History navigation */
+    #hist-nav {
+        margin-top: 1rem;
+        position: absolute;
+        margin-left: 32rem;
+
+    }
+
+    #hist-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #hist-nav a {
+        padding-left: 2rem;
+        color: #feff51;
+        text-decoration: none;
+
+
+    }
+
+    #hist-nav a:hover {
+        text-decoration: underline;
+    }
+
     .active {
         border-bottom: 2px solid #0490d1;
     }
+
 }
