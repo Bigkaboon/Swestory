@@ -146,7 +146,10 @@ a:hover {
 /* History nav and information */
 #hist-nav {
     position: absolute;
+    margin-left: 2.5rem;
 }
+
+
 
 #hist-facts {
     margin-top: 3rem;
@@ -176,6 +179,34 @@ a:hover {
     text-align: center;
     padding-bottom: 0.5rem;
 }
+
+#timeline a {
+    color: beige;
+}
+
+#present {
+    align-content: center;
+    text-align: center;
+}
+
+#present>div {
+    margin-bottom: 2rem;
+}
+
+#introduction>h3,
+h4 {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+#introduction>h4 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
 
 footer {
     background-color: #feff51;
@@ -432,6 +463,59 @@ footer {
         text-align: start;
         align-self: flex-start;
         max-width: 50%;
+    }
+
+    #introduction {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    #present {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    #politics {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+    }
+
+    #today {
+        align-self: flex-end;
+        text-align: end;
+        max-width: 50%;
+
+    }
+
+    #trade {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+    }
+
+    #media {
+        align-self: flex-end;
+        text-align: end;
+        max-width: 50%;
+    }
+
+    #market {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+    }
+
+    .m-right {
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .m-left {
+        margin-left: 1rem;
+        margin-bottom: 3rem;
     }
 
 
