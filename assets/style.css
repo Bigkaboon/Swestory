@@ -78,7 +78,7 @@ label i {
 /* history navigation (Phone size) */
 #hist-nav {
     margin-top: 1rem;
-    position: absolute;
+    position: fixed;
 
 }
 
@@ -143,8 +143,39 @@ a:hover {
     margin-left: 1rem;
 }
 
+/* History nav and information */
+#hist-nav {
+    position: absolute;
+}
 
+#hist-facts {
+    margin-top: 3rem;
 
+}
+
+#hist-facts p {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#hist-facts h3 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#monarch h4,
+#monarch h5 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#inventions h4,
+#inventions h5 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
 
 footer {
     background-color: #feff51;
@@ -211,6 +242,38 @@ footer {
         font-size: 2rem;
     }
 
+    #hist-nav {
+        position: absolute;
+    }
+
+    #hist-facts {
+        margin-top: 3rem;
+
+    }
+
+    #hist-facts p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #hist-facts h3 {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    #monarch h4,
+    #monarch h5 {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    #inventions h4,
+    #inventions h5 {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
 
 
@@ -292,5 +355,90 @@ footer {
     .active {
         border-bottom: 2px solid #0490d1;
     }
+
+    #flexed {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #flexed>div {
+        width: 60%;
+    }
+
+    #flexed>#monarch {
+        text-align: end;
+        align-self: flex-end;
+
+    }
+
+    #monarch {
+        border: solid 2px #feff51;
+        border-radius: 16%;
+
+    }
+
+    #space {
+        max-width: 20vw;
+    }
+
+    #geography {
+        border: solid 2px #feff51;
+        border-radius: 16%;
+
+    }
+
+    #inven-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #inven-list>li {
+        border: 2px solid #feff51;
+        border-radius: 25%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 6px;
+    }
+
+    #li-1 {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+
+    }
+
+    #li-2 {
+        text-align: end;
+        align-self: flex-end;
+        max-width: 50%;
+    }
+
+    #li-3 {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+    }
+
+    #li-4 {
+        text-align: end;
+        align-self: flex-end;
+        max-width: 50%;
+    }
+
+    #li-5 {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+    }
+
+
+
+
+
+
+
 
 }
