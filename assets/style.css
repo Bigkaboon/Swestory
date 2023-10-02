@@ -207,6 +207,20 @@ h4 {
 
 
 
+#future {
+    align-content: center;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+#future>div {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
 
 footer {
     background-color: #feff51;
@@ -306,6 +320,13 @@ footer {
         padding-bottom: 1rem;
     }
 
+    #future h3 {
+        font-size: 1.5rem;
+    }
+
+    #future {
+        margin-top: 3rem;
+    }
 
 
 }
@@ -516,6 +537,43 @@ footer {
     .m-left {
         margin-left: 1rem;
         margin-bottom: 3rem;
+    }
+
+    #future {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #climate {
+        text-align: start;
+        align-self: flex-start;
+        max-width: 50%;
+
+    }
+
+    #welfare {
+        align-self: flex-end;
+        text-align: end;
+        max-width: 50%;
+    }
+
+    #safety {
+        align-self: flex-start;
+        text-align: start;
+        max-width: 50%;
+    }
+
+    #global-dev {
+        align-self: flex-end;
+        text-align: end;
+        max-width: 50%;
+    }
+
+    #sociaty {
+        align-self: flex-start;
+        text-align: start;
+        max-width: 50%;
     }
 
 
