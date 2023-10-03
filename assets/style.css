@@ -123,7 +123,7 @@ label i {
 }
 
 #future-nav {
-    margin-right: 1rem;
+    margin-left: 0rem;
     font-size: 0.5rem;
     margin-top: 1rem;
 
@@ -131,10 +131,9 @@ label i {
 
 #future-nav ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-top: 0rem;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -143,10 +142,11 @@ label i {
 }
 
 #future-nav a {
-    padding-left: 0.5rem;
+    padding-left: 0.25rem;
     color: #feff51;
-    margin-left: 0.5rem;
-    font-size: 0.75rem;
+    margin-left: 6px;
+    font-size: 0.65rem;
+
 
 
 }
@@ -585,6 +585,10 @@ footer {
 
     }
 
+    #future-nav a {
+        font-size: 1rem;
+    }
+
     .hide {
         display: contents;
     }
@@ -682,7 +686,7 @@ footer {
     #hist-nav {
         margin-top: 1rem;
         position: absolute;
-        margin-left: 32rem;
+        margin-left: 36rem;
 
     }
 
@@ -830,7 +834,9 @@ footer {
     #pres-nav {
         margin-top: 1rem;
         position: absolute;
-        margin-left: 46rem;
+        display: block;
+        margin-left: 34.5rem;
+        margin-right: auto;
         margin-bottom: 2rem;
 
     }
@@ -855,6 +861,9 @@ footer {
         text-decoration: underline;
     }
 
+    #future-nav a {
+        padding: 00;
+    }
 
 
     #politics {
@@ -950,7 +959,7 @@ footer {
         max-width: 50%;
     }
 
-    #sociaty {
+    #society {
         align-self: flex-start;
         text-align: start;
         max-width: 50%;
