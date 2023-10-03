@@ -146,7 +146,8 @@ a:hover {
 /* History nav and information */
 #hist-nav {
     position: absolute;
-    margin-left: 2.5rem;
+    margin-left: 0rem;
+
 }
 
 
@@ -180,6 +181,11 @@ a:hover {
     padding-bottom: 0.5rem;
 }
 
+#warfare {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 #timeline a {
     color: beige;
 }
@@ -187,10 +193,17 @@ a:hover {
 #present {
     align-content: center;
     text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem 1rem;
 }
 
 #present>div {
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
+
+}
+
+#present p {
+    margin-bottom: 1rem;
 }
 
 #introduction>h3,
@@ -296,10 +309,15 @@ footer {
 
     }
 
+    #hist-facts>div {
+        margin-bottom: 4rem;
+        padding: 0 3rem;
+    }
+
     #hist-facts p {
         font-size: 1rem;
         text-align: center;
-        padding: 0 1rem;
+        padding: 0 2rem;
         padding-bottom: 1rem;
     }
 
@@ -318,6 +336,15 @@ footer {
     #inventions h5 {
         text-align: center;
         padding-bottom: 1rem;
+    }
+
+    #present {
+        font-size: 1rem;
+    }
+
+    #present>div {
+        margin-bottom: 6rem;
+        padding: 0 3rem;
     }
 
     #future h3 {
@@ -495,6 +522,10 @@ footer {
         max-width: 50%;
     }
 
+    .center-head {
+        text-align: center;
+    }
+
     #introduction {
         text-align: center;
         margin-top: 3rem;
@@ -507,29 +538,43 @@ footer {
         margin-top: 3rem;
     }
 
+
+
     #politics {
         text-align: start;
         align-self: flex-start;
         max-width: 50%;
+        padding: 0 6rem;
+    }
+
+    #politics>p {
+        margin-bottom: 2rem;
     }
 
     #today {
         align-self: flex-end;
         text-align: end;
         max-width: 50%;
+        padding: 0 6rem;
 
+    }
+
+    #today>p {
+        margin-bottom: 2rem;
     }
 
     #trade {
         text-align: start;
         align-self: flex-start;
         max-width: 50%;
+        padding: 0 6rem;
     }
 
     #media {
         align-self: flex-end;
         text-align: end;
         max-width: 50%;
+        padding: 0 6rem;
     }
 
     #market {
