@@ -77,7 +77,7 @@ label i {
 
 /* history navigation (Phone size) */
 #hist-nav {
-    margin-top: 1rem;
+    margin-top: 0rem;
     position: fixed;
 
 }
@@ -97,6 +97,64 @@ label i {
     font-size: 0.75rem;
 
 
+}
+
+#pres-nav {
+    margin-right: 1rem;
+
+
+}
+
+#pres-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0rem;
+
+}
+
+#pres-nav a {
+    padding-left: 0.5rem;
+    color: #feff51;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+
+
+}
+
+#future-nav {
+    margin-right: 1rem;
+    font-size: 0.5rem;
+    margin-top: 1rem;
+
+}
+
+#future-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0rem;
+    flex-direction: column;
+
+}
+
+#future-nav li {
+    margin-bottom: 0.5rem;
+}
+
+#future-nav a {
+    padding-left: 0.5rem;
+    color: #feff51;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+
+
+}
+
+.makebig {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -147,7 +205,16 @@ a:hover {
 #hist-nav {
     position: absolute;
     margin-left: 0rem;
+    max-width: 100vw;
+}
 
+.pres-nav {
+    position: absolute;
+    max-width: 100vw;
+}
+
+.hide {
+    display: none;
 }
 
 
@@ -233,7 +300,118 @@ h4 {
     margin-right: 2rem;
 }
 
+#future p {
+    margin-bottom: 1.5rem;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
 
+/* CURIOSA: Globe*/
+#globe_pic {
+    width: 80vw;
+    margin-left: 1.75rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+    border: 2px solid #feff51;
+}
+
+#globe-text {
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 0.75rem;
+}
+
+.curiosa-head {
+    text-align: center;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* CURIOSA: North Korea  */
+#debtimg1 {
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    border: 2px solid #feff51;
+}
+
+#debt-text1 {
+    text-align: center;
+    font-size: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+#debtimg2 {
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border: 2px solid #feff51;
+}
+
+#debt-text2 {
+    text-align: center;
+    font-size: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+#debt-head {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* CURIOSA: FOREST */
+#forest-pic {
+    width: 90vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border: 2px solid #feff51;
+    margin-bottom: 2rem;
+}
+
+#forest-text {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* CURIOSA: Passports */
+#passport-image {
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border: 2px solid #feff51;
+
+}
+
+#passport-text {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#na-video {
+    width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #feff51;
+}
 
 footer {
     background-color: #feff51;
@@ -269,26 +447,45 @@ footer {
     #hist-nav {
         margin-top: 1rem;
         position: absolute;
-        padding-left: 10rem;
-
+        padding-left: 5.5rem;
     }
 
     #hist-nav ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     #hist-nav a {
         padding-left: 2rem;
         color: #feff51;
-
         font-size: 1rem;
-
-
     }
 
+    #pres-nav {
+        margin-top: 1rem;
+        position: absolute;
+        padding-left: 10rem;
+    }
+
+    #pres-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #pres-nav a {
+        padding-left: 2rem;
+        color: #feff51;
+        font-size: 1rem;
+    }
+
+    .makebig {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
 
     fieldset {
         margin: 4rem 6rem;
@@ -302,6 +499,7 @@ footer {
 
     #hist-nav {
         position: absolute;
+        margin-right: 7rem;
     }
 
     #hist-facts {
@@ -349,12 +547,60 @@ footer {
 
     #future h3 {
         font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 
     #future {
         margin-top: 3rem;
+        font-size: 1rem;
     }
 
+    #future>div {
+        margin-bottom: 6rem;
+        padding: 0 3rem;
+
+    }
+
+    .hide {
+        display: contents;
+    }
+
+    /* CURIOSA: GLOBE*/
+    .curiosa-head {
+        margin-top: 4rem;
+    }
+
+    #globe_pic {
+        width: 55vw;
+        margin-left: 10rem;
+        margin-bottom: 5rem;
+    }
+
+    #globe-text {
+        font-size: 1rem;
+    }
+
+    /* CURIOSA: North Korea */
+    #debt-text1,
+    #debt-text2 {
+        font-size: 1rem;
+    }
+
+    /* CURIOSA: Forest */
+    #forest-text {
+        font-size: 1rem;
+        padding: 1 2rem;
+    }
+
+    /* Curiosa: Passports */
+    #passport-image {
+        width: 50vw;
+    }
+
+    #passport-text {
+        font-size: 1rem;
+        padding: 0 5rem;
+    }
 
 }
 
@@ -431,6 +677,12 @@ footer {
         text-decoration: underline;
     }
 
+
+
+    #hist-facts>div {
+        padding: 0 6rem;
+    }
+
     .active {
         border-bottom: 2px solid #0490d1;
     }
@@ -468,7 +720,7 @@ footer {
     }
 
     #warfare {
-        padding: 0 30rem;
+
         text-align: center;
     }
 
@@ -522,6 +774,11 @@ footer {
         max-width: 50%;
     }
 
+    #warfare {
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
     .center-head {
         text-align: center;
     }
@@ -536,6 +793,38 @@ footer {
         flex-direction: column;
         width: 100%;
         margin-top: 3rem;
+    }
+
+    #present h2 {
+        margin-top: 7rem;
+    }
+
+    #pres-nav {
+        margin-top: 1rem;
+        position: absolute;
+        margin-left: 46rem;
+        margin-bottom: 2rem;
+
+    }
+
+    #pres-nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #pres-nav a {
+        padding-left: 2rem;
+        color: #feff51;
+        text-decoration: none;
+
+
+
+    }
+
+    #pres-nav a:hover {
+        text-decoration: underline;
     }
 
 
@@ -599,6 +888,15 @@ footer {
         width: 100%;
     }
 
+    #future>div {
+        padding: 0 3rem;
+    }
+
+    #future p,
+    h3 {
+        margin-bottom: 2rem;
+    }
+
     #climate {
         text-align: start;
         align-self: flex-start;
@@ -628,6 +926,85 @@ footer {
         align-self: flex-start;
         text-align: start;
         max-width: 50%;
+    }
+
+    .makebig {
+        font-size: 3rem;
+        margin-bottom: 7rem;
+        text-decoration: dashed;
+        text-decoration-line: underline;
+        margin-top: 1rem;
+    }
+
+    /* CURIOSA: */
+    .curiosa-head {
+        margin-top: 4rem;
+    }
+
+    #globe_pic {
+        width: 30vw;
+        margin-left: 42rem;
+        margin-bottom: 5rem;
+    }
+
+    #globe-text {
+        font-size: 1rem;
+        padding: 0 12rem;
+    }
+
+    /* CURIOSA: North Korea */
+    #debtimg1 {
+        width: 40vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+        border: 2px solid #feff51;
+    }
+
+    #debt-text1 {
+        text-align: center;
+        font-size: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-top: 2rem;
+    }
+
+    #debtimg2 {
+        width: 20vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+        border: 2px solid #feff51;
+    }
+
+    #debt-text2 {
+        text-align: center;
+        font-size: 1rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    #debt-head {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    /* Curiosa: Forest */
+    #forest-pic {
+        width: 50vw;
+    }
+
+    #forest-text {
+        margin-bottom: 4rem;
+    }
+
+    /* Curiosa: Passports */
+    #passport-image {
+        width: 30vw;
     }
 
 
