@@ -442,6 +442,13 @@ footer {
     min-height: 2rem;
 }
 
+#go-up {
+    color: #feff51;
+    position: fixed;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
 @media screen and (min-width: 768px) {
 
 
@@ -587,6 +594,12 @@ footer {
 
     #future-nav a {
         font-size: 1rem;
+        padding-right: 1rem;
+    }
+
+    #future-nav {
+        margin-top: 2rem;
+        margin-left: 11rem;
     }
 
     .hide {
@@ -632,6 +645,15 @@ footer {
 
     #more-facts {
         font-size: 1.2rem;
+    }
+
+    /* "go up button" */
+    #go-up {
+        color: #feff51;
+        position: fixed;
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-left: 1rem;
     }
 
 }
@@ -862,7 +884,11 @@ footer {
     }
 
     #future-nav a {
-        padding: 00;
+        padding: 0 3rem;
+    }
+
+    #future-nav {
+        margin-left: 35rem;
     }
 
 
