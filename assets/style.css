@@ -440,6 +440,15 @@ footer {
 
     }
 
+    #warfare {
+        padding: 0 30rem;
+        text-align: center;
+    }
+
+    #warfare>p {
+        margin-bottom: 2rem;
+    }
+
     #inven-list {
         display: flex;
         flex-direction: column;
