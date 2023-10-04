@@ -163,7 +163,6 @@ label i {
 main {
     background-color: #0490d1;
     flex: 1 0 auto;
-    align-items: right;
     margin-top: 40px;
     color: beige;
 }
@@ -453,7 +452,7 @@ footer {
 
 
     .right {
-        margin-left: 0 1rem;
+        margin-left: 1rem;
         left: 0;
     }
 
@@ -630,7 +629,7 @@ footer {
     /* CURIOSA: Forest */
     #forest-text {
         font-size: 1rem;
-        padding: 1 2rem;
+        padding: 0;
     }
 
     /* Curiosa: Passports */
