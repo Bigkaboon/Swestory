@@ -436,16 +436,48 @@ h4 {
 }
 
 
-footer {
-    background-color: #feff51;
-    min-height: 2rem;
-}
+
 
 #go-up {
     color: #feff51;
     position: fixed;
     margin-top: 1rem;
     margin-left: 0.5rem;
+}
+
+footer {
+    background-color: #feff51;
+    min-height: 2rem;
+    color: #0490d1;
+}
+
+footer div {
+    margin-top: 0.5rem;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer li {
+    font-size: 0.75rem;
+}
+
+footer a {
+    color: #0490d1;
+}
+
+#l-more2 a {
+    margin-right: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -654,6 +686,28 @@ footer {
         margin-top: 1rem;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+
+    footer div {
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        column-count: 2;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    footer li {
+        font-size: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
     }
 
 }
@@ -1091,6 +1145,39 @@ footer {
 
     #more-facts p {
         margin-bottom: 4rem;
+    }
+
+    footer {
+        min-height: 4rem;
+
+    }
+
+    footer div {
+        margin-top: 1rem;
+        display: flex;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-left: 10%;
+        color: #0490d1;
+
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        column-count: 2;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+    footer li {
+        font-size: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
+
     }
 
 
