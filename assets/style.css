@@ -459,6 +459,7 @@ footer div {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 0.5rem;
+    align-items: baseline;
 }
 
 footer ul {
@@ -476,6 +477,7 @@ footer li {
 
 footer a {
     color: #0490d1;
+    margin-left: 1rem;
 }
 
 .list-margin>li {
