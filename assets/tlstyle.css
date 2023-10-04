@@ -92,6 +92,13 @@ footer {
     min-height: 2rem;
 }
 
+#not-finished>h2 {
+    margin-top: 1rem;
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 @media screen and (min-width: 768px) {
 
 
@@ -116,6 +123,10 @@ footer {
         font-size: 1.5rem;
         border: none;
         padding-bottom: 1rem;
+    }
+
+    #not-finished>h2 {
+        margin-top: 4rem;
     }
 }
 
@@ -155,6 +166,11 @@ footer {
 
     #logo {
         margin-left: 5vw;
+    }
+
+    #not-finished>h2 {
+        margin-top: 5rem;
+        font-size: 1.75rem;
     }
 
 }
