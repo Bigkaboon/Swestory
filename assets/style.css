@@ -478,9 +478,7 @@ footer a {
     color: #0490d1;
 }
 
-#l-more2 a {
-    margin-right: 1rem;
-}
+
 
 
 
@@ -693,6 +691,7 @@ footer a {
     }
 
     footer div {
+
         display: flex;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -713,6 +712,8 @@ footer a {
         padding-left: 1rem;
 
     }
+
+
 
 }
 
